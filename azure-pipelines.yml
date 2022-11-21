@@ -20,6 +20,6 @@ steps:
 - task: UiPathTest@2
   inputs:
     testTarget: 'TestSet'
-    orchestratorConnection: 'SachinConnection'
+    orchestratorConnection: 'Sachin_Orchestrator'
     testSet: 'Azure'
     folderName: 'Sachin'
